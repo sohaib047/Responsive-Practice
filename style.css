@@ -106,7 +106,7 @@ body{
     color: #363636;
 }
 .section33 img{
-  width: 50%;
+  width: 100%;
     
 }
 
@@ -146,7 +146,14 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
-
+/* blog_section */
+.section33 a{
+    color: #ee5253;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: KdamThmorPro-Regular;
+    font-size: 14px;
+}
 
 /* footer, and it's IDs and Classes */
 
