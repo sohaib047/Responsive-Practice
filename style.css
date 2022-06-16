@@ -85,9 +85,67 @@ body{
     font-size: 18px;
     text-align: center;
 }
+/* why-us */
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+}
+.section33 h2{
+  
+    color: #ee5253;
+}
+.section33 p{
+  
+    color: #363636;
+}
+.section33 img{
+  width: 50%;
+    
+}
 
+.red-heading{
+    
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
 
+}
 
+/* contact-section */
+#contact-container{
+    background-color: #ee5253;
+    color: whitesmoke;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+}
+#contact-btn{
+    background-color: whitesmoke;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 /* footer, and it's IDs and Classes */
