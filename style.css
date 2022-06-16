@@ -65,6 +65,31 @@ body{
     margin: 0;
     padding: 0;
 }
+/* poster */
+#poster{
+    background-image: url(./images/poster.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    flex-direction: column;
+
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
 /* footer, and it's IDs and Classes */
 
 #imp-link{
