@@ -66,10 +66,7 @@ body{
     padding: 0;
 }
 /* footer, and it's IDs and Classes */
-footer{
-    position: fixed;
-    bottom: 0;
-}
+
 #imp-link{
     background-color: #576574;
     color: whitesmoke;
