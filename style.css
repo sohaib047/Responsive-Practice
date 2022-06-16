@@ -1,0 +1,21 @@
+@font-face {
+    font-family: KdamThmorPro-Regular;
+    src: url(./fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: KdamThmorPro-Regular;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+#topbar{
+    background-color:#576574 ;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
