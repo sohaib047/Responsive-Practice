@@ -154,6 +154,40 @@ body{
     font-family: KdamThmorPro-Regular;
     font-size: 14px;
 }
+/* newsletter */
+#newsletter{
+    background-color: #ee5253;
+    color: whitesmoke;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 h2{
+    font-size: 27px;
+    text-align: center;
+    padding-right: 50px;
+}
+.section50 form{
+    padding-top: 25px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color:#ee5253 ;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+.section50 input[type="submit"]{
+    padding: 10px 35px;
+    font-size: 15px;
+    color:#ee5253;
+    border: 0px;
+}
 
 /* footer, and it's IDs and Classes */
 
