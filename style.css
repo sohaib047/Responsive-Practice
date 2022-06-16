@@ -228,3 +228,51 @@ body{
     color: #cbcbcb;
     padding: 10px;
 }
+/* responsive_iPad */
+@media only screen and (max-width:768px) {
+    #navbar ul li {
+        padding: 18px 0px;
+        padding-right: 20px;
+    }
+    .section70 {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    .section30 {
+       
+        padding-top: 90px;
+    }
+}
+/* responsive-mobile */
+@media only screen and (max-width:500px){
+    #logobar{
+        text-align: center;
+    }
+    #poster h1 {
+        font-size: 40px;
+    }
+    .section33, .section70, .section30, .section50, .div33{
+        width: 100%;
+    }
+    .section70 {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .section30 {
+     
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .section33 a{
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .section50 h2 {
+        font-size: 27px;
+        text-align: center;
+        padding-right: 0px;
+    }.section50 h2 {
+        text-align: center;
+        padding-right: 0px;
+    }
+}
