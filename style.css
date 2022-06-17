@@ -226,12 +226,11 @@ body{
     background-color: #222f3e;
     text-align: center;
     color: #cbcbcb;
-    padding: 10px;
+    padding: 12px;
 }
 /* responsive_iPad */
 @media only screen and (max-width:768px) {
     #navbar ul li {
-        padding: 18px 0px;
         padding-right: 20px;
     }
     .section70 {
@@ -248,6 +247,7 @@ body{
     #logobar{
         text-align: center;
     }
+    
     #poster h1 {
         font-size: 40px;
     }
@@ -271,8 +271,58 @@ body{
         font-size: 27px;
         text-align: center;
         padding-right: 0px;
-    }.section50 h2 {
+    }
+    .section50 h2 {
         text-align: center;
         padding-right: 0px;
+    }
+    .div33 {
+ 
+        padding: 25px 20px;
+        text-align: center;
+    }
+    #footer-menu-container{
+        padding-left: 0px;
+    }
+}
+/* mobile menu */
+#navbar ul #mbl-cross, #mbl-bar{
+    display: none;
+}
+@media only screen and (max-width:500px){
+    #navbar {
+        background-color: #ee5253;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li {
+        display: block;
+        padding: 18px 0px;
+        padding-right: 35px;
+        border-bottom: 1px solid lightgray;
+        padding-left: 20px;
+    }
+    #mbl-cross{
+        text-align: right;
+
+    }
+    .fa-xmark{
+        font-size: 20px;
+    }
+    #navbar{
+        left: -280px;
+        transition: all 0.5s ease;
+    }
+    #mbl-bar{
+        background-color:#ee5253 ;
+        color: whitesmoke;
+        padding: 18px;
+        font-size: 28px;
+    }
+    #navbar ul #mbl-cross, #mbl-bar{
+        display: block;
     }
 }
