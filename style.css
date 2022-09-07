@@ -3,70 +3,98 @@
     font-family: KdamThmorPro-Regular;
     src: url(./fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf);
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: KdamThmorPro-Regular;
 }
-*{
+
+* {
     font-family: 'Roboto', sans-serif;
 }
+
 /* universal margins */
-body{
+body {
     margin: 0;
 }
-.uni-padding{
+
+.uni-padding {
     padding: 0 7%;
 }
+
 /* header-IDs and Classes */
-#topbar{
-    background-color:#576574 ;
+#topbar {
+    background-color: #2f2fa2;
     padding-top: 18px;
     padding-bottom: 18px;
     overflow: auto;
 }
-#socialicons{
+
+#socialicons {
     float: right;
 }
-#tollfree{
+
+#tollfree {
     float: left;
     color: whitesmoke;
     margin: 0;
     margin-top: 5px;
 }
-.fa-brands{
+
+.fa-brands {
     background-color: whitesmoke;
     color: #576574;
     padding: 7px;
     border-radius: 50%;
 }
-.fa-facebook{
+
+.fa-facebook {
     padding-top: 7px;
 }
-.fa-linkedin{
+
+.fa-linkedin {
     padding-top: 7px;
 }
-#logobar img{
-    width: 200px;
-    margin: 25px 0px;
+
+#logobar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-#navbar{
-    background-color: #ee5253;
+
+#logobar iframe {
+    width: 250px;
+    margin: 20px 0px;
+    border-style: none;
 }
-#navbar ul li{
+
+#navbar {
+    background-color: #f27d42;
+}
+
+#navbar ul li {
     display: inline-block;
     padding: 18px 0px;
     padding-right: 35px;
 }
-#navbar ul li a{
+
+#navbar ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
-#navbar ul{
+
+#navbar ul {
     margin: 0;
     padding: 0;
 }
+
 /* poster */
-#poster{
+#poster {
     background-image: url(./images/poster.jpg);
     height: 500px;
     background-position: center;
@@ -78,41 +106,48 @@ body{
     flex-direction: column;
 
 }
-#poster h1{
+
+#poster h1 {
     font-size: 50px;
 }
-#poster p{
+
+#poster p {
     font-size: 18px;
     text-align: center;
 }
+
 /* why-us */
-#whysection{
+#whysection {
     overflow: auto;
     margin-bottom: 50px;
 }
-.section33{
+
+.section33 {
     width: 33.33%;
     float: left;
     text-align: center;
     padding: 0px 50px 0px 50px;
     box-sizing: border-box;
 }
-.section33 h2{
-  
+
+.section33 h2 {
+
     color: #ee5253;
-}
-.section33 p{
-  
-    color: #363636;
-}
-.section33 img{
-  width: 100%;
-    
 }
 
-.red-heading{
-    
-    color: #ee5253;
+.section33 p {
+
+    color: #363636;
+}
+
+.section33 iframe {
+    width: 100%;
+    border-style: none;
+}
+
+.red-heading {
+
+    color: #f27d42;
     text-align: center;
     font-size: 35px;
     margin-top: 50px;
@@ -120,184 +155,370 @@ body{
 }
 
 /* contact-section */
-#contact-container{
-    background-color: #ee5253;
+#contact-container {
+    background-color: #f27d42;
     color: whitesmoke;
     overflow: auto;
     padding-top: 20px;
     padding-bottom: 30px;
 }
-.section70{
+
+.section70 {
     width: 70%;
     float: left;
 }
-.section30{
+
+.section30 {
     width: 30%;
     float: left;
     text-align: center;
     padding-top: 70px;
 }
-#contact-btn{
+
+#contact-btn {
     background-color: whitesmoke;
-    color: #ee5253;
+    color: #f27d42;
     padding: 15px 50px;
     text-decoration: none;
     border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
 }
+
 /* blog_section */
-.section33 a{
-    color: #ee5253;
+.section33 a {
+    color: #f27d42;
     font-weight: bold;
     text-decoration: none;
     font-family: KdamThmorPro-Regular;
     font-size: 14px;
 }
+
 /* newsletter */
-#newsletter{
-    background-color: #ee5253;
+#newsletter {
+    background-color: #f27d42;
     color: whitesmoke;
     overflow: auto;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.section50{
+
+.section50 {
     width: 50%;
     float: left;
 }
-.section50 h2{
+
+.section50 h2 {
     font-size: 27px;
     text-align: center;
     padding-right: 50px;
 }
-.section50 form{
+
+.section50 form {
     padding-top: 25px;
 }
-.section50 input[type="text"]{
+
+.section50 input[type="text"] {
     padding: 10px 15px;
     font-size: 15px;
-    color:#ee5253 ;
+    color: #f27d42;
     margin-right: 20px;
     border: 0px;
+    border-radius: 8px;
     width: 45%;
 }
-.section50 input[type="submit"]{
+
+.section50 input[type="submit"] {
     padding: 10px 35px;
     font-size: 15px;
-    color:#ee5253;
+    color: #f27d42;
     border: 0px;
+    border-radius: 8px;
 }
 
 /* footer, and it's IDs and Classes */
 
-#imp-link{
-    background-color: #576574;
+#imp-link {
+    background-color: #2f2fa2;
     color: whitesmoke;
     overflow: auto;
 }
-.div33{
+
+.div33 {
     width: 33.33%;
     float: left;
     padding: 25px 50px;
     box-sizing: border-box;
 }
-.div33 h3{
+
+.div33 h3 {
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 2px;
     font-weight: normal;
 }
-#footer-links{
+
+#footer-links {
     list-style: none;
     padding: 0;
 }
-#footer-links li{
+
+#footer-links li {
     padding-bottom: 10px;
 }
-#footer-links li a{
+
+#footer-links li a {
     text-decoration: none;
     color: whitesmoke;
 }
-#footer-menu-container{
+
+#footer-menu-container {
     padding-left: 100px;
 }
-#copyright{
-    background-color: #222f3e;
+
+#copyright {
+    background-color: #000c63;
     text-align: center;
     color: #cbcbcb;
     padding: 12px;
 }
+
 /* responsive_iPad */
 @media only screen and (max-width:768px) {
     #navbar ul li {
         padding-right: 20px;
     }
+
     .section70 {
         padding-right: 30px;
         box-sizing: border-box;
     }
+
     .section30 {
-       
         padding-top: 90px;
     }
+    .section50 h2 {
+        font-size: 20px;
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 8px;
+        margin-right: 15px;
+    }
+
+    .section50 input {
+        text-align: center;
+        padding-right: 0px;
+        margin-left: 10px;
+    }
+    #form-newsletter {
+        display: flex;
+    }
 }
+
 /* responsive-mobile */
-@media only screen and (max-width:500px){
-    #logobar{
+@media only screen and (max-width:500px) {
+    #logobar {
         text-align: center;
     }
-    
+
+    #logobar h1 {
+        margin-right: 10px;
+    }
+
     #poster h1 {
         font-size: 40px;
     }
-    .section33, .section70, .section30, .section50, .div33{
+
+    .section33,
+    .section70,
+    .section30,
+    .section50,
+    .div33 {
         width: 100%;
     }
+
     .section70 {
         padding-right: 0px;
         text-align: center;
     }
+
     .section30 {
-     
+
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .section33 a{
+
+    .section33 a {
         display: inline-block;
         margin-bottom: 30px;
     }
+
     .section50 h2 {
-        font-size: 27px;
+        font-size: 25px;
         text-align: center;
         padding-right: 0px;
+        margin-right: 15px;
     }
-    .section50 h2 {
+
+    .section50 input {
         text-align: center;
         padding-right: 0px;
+        margin-left: 18px;
     }
+
     .div33 {
- 
-        padding: 25px 20px;
+        padding: 20px 20px;
+        padding-left: 0px;
         text-align: center;
     }
-    #footer-menu-container{
+
+    #footer-menu-container {
         padding-left: 0px;
     }
 }
+
+/* responsive-mobile */
+@media only screen and (max-width:450px) {
+    #logobar {
+        text-align: center;
+    }
+
+    #logobar h1 {
+        margin-right: 30px;
+    }
+
+    #poster h1 {
+        font-size: 40px;
+    }
+
+    .section33,
+    .section70,
+    .section30,
+    .section50,
+    .div33 {
+        width: 100%;
+    }
+
+    .section70 {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .section30 {
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .section33 a {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .section50 h2 {
+        font-size: 25px;
+        text-align: center;
+        padding-right: 0px;
+        margin-right: 15px;
+    }
+
+    .section50 input {
+        text-align: center;
+        padding-right: 0px;
+        margin-left: 5px;
+    }
+
+    .div33 {
+        padding: 20px 20px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #footer-menu-container {
+        padding-left: 0px;
+    }
+}
+
+/* responsive-mobile */
+@media only screen and (max-width:383px) {
+    #logobar {
+        text-align: center;
+    }
+
+    #logobar h1 {
+        font-size: 24px;
+        margin-right: 35px;
+    }
+
+    #poster h1 {
+        font-size: 30px;
+    }
+
+    .section33,
+    .section70,
+    .section30,
+    .section50,
+    .div33 {
+        width: 100%;
+    }
+
+    .section70 {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .section30 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .section33 a {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .section50 h2 {
+        font-size: 20px;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .section50 input {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    #form-newsletter {
+        display: flex;
+    }
+
+    .div33 {
+        padding: 20px 20px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    #footer-menu-container {
+        padding-left: 0px;
+    }
+}
+
 /* mobile menu */
-#navbar ul #mbl-cross, #mbl-bar{
+#navbar ul #mbl-cross,
+#mbl-bar {
     display: none;
 }
-@media only screen and (max-width:500px){
+
+@media only screen and (max-width:500px) {
     #navbar {
-        background-color: #ee5253;
+        background-color: #f27d42;
         position: absolute;
         top: 0px;
         height: 100vh;
         width: 280px;
         padding: 0px;
     }
+
     #navbar ul li {
         display: block;
         padding: 18px 0px;
@@ -305,24 +526,30 @@ body{
         border-bottom: 1px solid lightgray;
         padding-left: 20px;
     }
-    #mbl-cross{
+
+    #mbl-cross {
         text-align: right;
 
     }
-    .fa-xmark{
+
+    .fa-xmark {
         font-size: 20px;
     }
-    #navbar{
+
+    #navbar {
         left: -280px;
         transition: all 0.5s ease;
     }
-    #mbl-bar{
-        background-color:#ee5253 ;
+
+    #mbl-bar {
+        background-color: #f27d42;
         color: whitesmoke;
         padding: 18px;
         font-size: 28px;
     }
-    #navbar ul #mbl-cross, #mbl-bar{
+
+    #navbar ul #mbl-cross,
+    #mbl-bar {
         display: block;
     }
 }
